@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Proyecto Podcast</title>
+        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <script src="https://kit.fontawesome.com/8ea14c952d.js" crossorigin="anonymous"></script>
+         <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500%7CIBM+Plex+Sans:200,300,600&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="contenedor-todo">
+            <!-- Header -->
+            <header class="header">
+                <div class="logo">
+                    <img class="img" src="assets/logo.svg" alt="logo"/>
+                </div>
+                <div class="submenu">
+                 <nav class="menu-hamburguesa"> 
+                     <input type="checkbox" id="barra" class="barra">
+                     <label for="barra" class="hamburguesa" ><i class="fas fa-bars"></i></label> 
+                     <label for="barra" class="close"><i class="fas fa-times"></i></label>
+                     <ul>
+                     <li><a class= "link" href="#episodios">EPISODIOS</a></li> 
+                     <li><a class= "link" href=#nosotros>NOSOTROS</a></li>
+                     <li><a class= "link" href=#entrevista>ENTREVISTA</a></li> 
+                     <li><a class= "link" href=#topicos>TÓPICOS</a></li>  
+                    </ul> 
+                </nav>
+                </div> 
+            </header>
+            <!-- Titulo -->
+            <div class="titulo">
+                <h1>Hello <s>world</s> pale blue dot<span style="color:#0000EC">.</span></h1>
+                <!-- Parrafo1 -->
+                <div class="parrafo">
+                    <p>El portal de podcasts que explora el mundo de la programacion y la tecnologia. Nuevos episodios, todos los jueves cada 15 dias.</p>
+                </div>
+                <div class="parrafomobile">
+                    <p>Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+                </div>
+                <!-- Boton-->
+                <div class="boton">
+                    <a class="botonepisodios" href="https://open.spotify.com/show/0R46Q4lsN14bWIAIZm07D1?si=Ie0m1KLxQvOWyCtEkilXbQ">CONOCÉ MÁS</a> 
+                </div>
+            </div>
+            <!-- Contenedor Episodios  -->
+            <div class= "contenedorepisodios">
+                <div class="fondo">
+                    <div  id="episodios" class="episodios">
+                        <p>Episodios</p> 
+                    </div>
+                    <div class="contenedor">
+                        <div class="contenedor1">
+                            <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" allow="encrypted-media"></iframe>
+                            <iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" allow="encrypted-media"></iframe>
+                            <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" allow="encrypted-media"></iframe> 
+                            <iframe src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ" allow="encrypted-media"></iframe>
+                        </div>          
+                    </div>
+                </div>
+            </div>
+                <!-- Telefono -->
+                <div class="tel">
+                    <img id="nosotros" class= "imgtelefono" src="assets/phone.png" alt="el secreto de la historia de las mujeres codeando"/>
+                <!-- Parrafo Telefono -->
+                <div class="contenedor3">
+                        <div class="parrafo2">
+                            <h2 class="titulo2">De dónde venimos</h2>
+                            <p class="parrafo3">Our posturings, our imagined self-importance, the delusion that we have some priviliged position in the Universe, are challenged by this point of pale ligth.<br><br>
+                                 Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Invitadas -->
+                <div id="entrevista" class="invitadas">
+                    <div class="contenedortitulo3">
+                    <h2 class="titulo3">Invitadas/os estelares</h2>
+                    </div>
+                <div class="imagenesmujeres">
+                    <div class="mujeres1">
+                        <img class="mujer" src="assets/grace-hopper.png" alt="Grace Hopper"/>
+                        <img class="mujer" src="assets/Katie-Bouman.png" alt="Ketie Bouman"/>
+                        <img class="mujer" src="assets/Margaret_Hamilton.png" alt="Margaret Hamilton"/>
+                        <img class="mujer" src="assets/E.R.A.png" alt="An E.R.A. Univac 1103 computer in the 1950"/>
+                        <img class="mujer" src="assets/Computer-operators-with-an-Eniac.png" alt="Computer operator with an Eniac"/>
+                        <img class="mujer" src="assets/susan-kare.png" alt="Susan Karen"/>
+                    </div>
+                </div>
+                </div>
+                <!-- nuestros temas -->
+                <div id="topicos" class="nuestrostemas">
+                    <div class="contenedortitulo4">
+                        <h2 class="titulo4">Algunos de nuestros temas</h2>
+                    </div>
+                    <div class="contenedoriconos">
+                        <div class="icono1">
+                            <img class="imagentrabajo" src="assets/icon1.svg" alt="trabajo remoto"/>
+                            <p class="trabajo"><strong> Trabajo remoto</strong></p>
+                        </div>
+                        <div class="icono2">
+                            <img class="imagenrepensando" src="assets/icon2.svg" alt="Repensando la Programacion"/>
+                            <p class="repensando"><strong>Repensando la programación</strong></p>
+                        </div>
+                        <div class="icono3">
+                            <img class="imagenbases" src="assets/icon3.svg" alt="Bases del Codigo"/>
+                            <p class="bases"><strong>Bases del código</strong></p>
+                        </div>
+                        <div class="icono4">
+                            <img  class="imagenseguridad" src="assets/icon4.svg" alt="Seguridad Informatica"/>
+                            <p class="seguridad"><strong>Seguridad informática</strong></p>
+                        </div>
+                    </div>
+                </div>
+                    <!-- ultimasnovedades -->
+                <div class="fondo1">
+                    <div class="contenedor4">
+                        <div class="novedades">
+                            <p>¿Quéres las últimas novedades?</p>
+                        </div>
+                    <!-- Boton1     -->
+                            <div class="boton1">
+                             <a class="botonepisodios" href="#episodios">ESCUCHÁ LOS EPISODIOS</a> 
+                            </div> 
+                     </div>
+                </div>
+                    <!-- footer -->
+                <footer class="contenedor-pie">
+                    <div class="contenedor5">
+                        <label>© 2019— Hello blue pale dot </label>
+                    </div>
+                    <div class="contenedor6">
+                        <a href="https://www.spotify.com/ar/"><i class="fab fa-spotify"></i></a> 
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://twitter.com/explore"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://web.telegram.org/#/login"><i class="fab fa-telegram"></i></a>
+                    </div>  
+                </footer>
+         </div>
+        </body>
+    </html>
